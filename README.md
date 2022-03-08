@@ -21,3 +21,11 @@ jQuery는 라이브러리 = 재사용을 위해서
                     $('body').html('hello world');
                 })(jQuery)
                 </script>
+
+- 선택자 
+                https://api.jquery.com/category/selectors/
+
+
+- chain 
+                코드가 간결해진다.
+                인간의 언어와 유사해서 사고의 자연스러운 과정과 일치함.
