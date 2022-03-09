@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p {
+            color: blue;
+            margin: 8px;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+    <input type="text" value="some text" />
+    <p>
+    </p>
+    <script>$("input").keyup(function () {
+            var value = $(this).val();
+            $("p").text(value);
+        }).keyup();
+        //value값 return
+        //keyup 사용자의 타이핑이 끝났을 시에 발동함
+    </script>
+</body>
+
+</html>
